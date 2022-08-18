@@ -155,7 +155,7 @@
                     background-image: url(profile.jpg);
                     background-repeat: no-repeat;
                     position: absolute;
-                    top: 7%;
+                    top: 46px;
                     left: 5%;
                 }
                 
@@ -364,14 +364,11 @@
                 }
                 
                 .cards {
-                    background-color: rgba(255, 255, 255, 255);
-                    border-radius: 15px;
-                }
-                
-                .card-align {
                     display: flex;
                     padding: 8px;
                     flex-direction: column;
+                    background-color: rgba(255, 255, 255, 255);
+                    border-radius: 15px;
                 }
                 
                 .full-width-img {
@@ -736,7 +733,7 @@
                     .img-circle-div {
                         width: 65px;
                         height: 65px;
-                        top: 8%;
+                        top: 46px;
                         left: 4%;
                     }
                     .menu {
@@ -931,7 +928,7 @@
                     .img-circle-div {
                         width: 70px;
                         height: 65px;
-                        top: 7%;
+                        top: 46px;
                         left: 4%;
                     }
                     .smalltxt {
@@ -1010,7 +1007,7 @@
                     .img-circle-div {
                         width: 66px;
                         height: 66px;
-                        top: 8%;
+                        top: 46px;
                         left: 7%;
                     }
                     .cashiername {
