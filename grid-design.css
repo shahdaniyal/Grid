@@ -815,6 +815,7 @@
                     }
                     .category {
                         margin-left: 1%;
+                        font-size: 13px;
                     }
                     .catalog1 {
                         margin-top: 3%;
@@ -857,6 +858,9 @@
                         grid-column: 1/13;
                         overflow-x: scroll;
                         grid-row: 6/6;
+                    }
+                    .cards {
+                        padding: 0px 24px;
                     }
                     .column {
                         padding: 20px 10px 0px 10px;
@@ -963,7 +967,7 @@
                         grid-template-rows: 75px 160px 112px 20px 150px 97px;
                     }
                     .catalog1 {
-                        overflow: scroll;
+                        overflow-x: scroll;
                         height: 50px;
                         justify-content: space-between;
                     }
