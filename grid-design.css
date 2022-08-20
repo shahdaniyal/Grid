@@ -918,6 +918,9 @@
                     .ordertime {
                         display: none;
                     }
+                    .center::-webkit-scrollbar {
+                        display: none;
+                    }
                     .nav {
                         grid-column: 1/13;
                         margin-right: 1%;
@@ -959,9 +962,35 @@
                     .pizza-number {
                         display: none;
                     }
+                    .full-width-img {
+                        margin-top: 0%;
+                        width: 50%;
+                    }
+                    .pizza-price {
+                        margin-top: 0%;
+                    }
+                    .addedbtn {
+                        margin-top: 0%;
+                    }
+                    .pizzasizes {
+                        margin-top: 0%;
+                    }
+                    .addbtn {
+                        margin-top: 0%;
+                    }
+                    .cards {
+                        min-width: 50vw;
+                        height: 100%;
+                        margin-left: -12px;
+                        justify-content: space-around;
+                    }
+                    .sizes {
+                        margin-bottom: 0px;
+                    }
                     .column {
                         width: 50%;
-                        padding: 20px 10px 0px 10px;
+                        margin-left: 20px;
+                        padding: 15px 10px 0px 10px;
                     }
                     .left-small-cards {
                         padding: 3% 2%;
@@ -976,7 +1005,7 @@
                         padding: 0px 14px 8px 14px;
                     }
                     main {
-                        grid-template-rows: 75px 160px 112px 20px 150px 97px;
+                        grid-template-rows: 75px 160px 112px 20px 115px 97px;
                     }
                     .catalog1 {
                         overflow-x: scroll;
@@ -989,6 +1018,7 @@
                     .center {
                         grid-column: 1/13;
                         grid-row: 4/7;
+                        display: flex;
                         overflow: scroll;
                     }
                     .right {
@@ -996,7 +1026,7 @@
                         grid-row: 7/8;
                         margin-left: 2%;
                         margin-right: 2%;
-                        margin-top: 5%;
+                        margin-top: 4%;
                     }
                     .left-small-cards::-webkit-scrollbar {
                         display: none;
